@@ -7,10 +7,10 @@ I've added the following documents to this directory in support of the Week 2 su
 1. PA1_template.Rmd - the R markdown document.
 2. PA1_template.md - the markdown document.
 3. PA1_template.html - the html output from the running the R markdown file.
-4. unnamed-chunk-4-1.png - a file with the first plot (see R Markdown file or html output) placed into the figure folder.
-5. unnamed-chunk-5-1.png - a file with the second plot (see R Markdown file or html output) placed into the figure folder.
-6. unnamed-chunk-10-1.png - a file with the third plot (see R Markdown file or html output) placed into the figure folder.
-7. unnamed-chunk-13-1.png - a file with the fourth plot (see R Markdown file or html output) placed into the figure folder.
+4. 2-StepsByDay-1.png - a file with the first plot (see R Markdown file or html output) placed into the figure folder.
+5. 3.1-StepInTime-1.png - a file with the second plot (see R Markdown file or html output) placed into the figure folder.
+6. 4.4-HisStepsSum-1.png - a file with the third plot (see R Markdown file or html output) placed into the figure folder.
+7. 5.2-PanPlot-1.png - a file with the fourth plot (see R Markdown file or html output) placed into the figure folder.
 
 Below is the Professor's description of the project.
 
