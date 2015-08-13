@@ -1,3 +1,23 @@
+## README FILE FOR THE PEER ASSESSMENT POJECT 1 OF REPRODUCIBLE RESEARCH.
+
+Dear Reviewer,
+
+I've added the following documents to this directory in support of the Week 2 submission.
+
+1. PA1_template.Rmd - the R markdown document.
+2. PA1_template.md - the markdown document.
+3. PA1_template.html - the html output from the running the R markdown file.
+4. unnamed-chunk-4-1.png - a file with the first plot (see R Markdown file or html output) placed into the figure folder.
+5. unnamed-chunk-5-1.png - a file with the second plot (see R Markdown file or html output) placed into the figure folder.
+6. unnamed-chunk-10-1.png - a file with the third plot (see R Markdown file or html output) placed into the figure folder.
+7. unnamed-chunk-13-1.png - a file with the fourth plot (see R Markdown file or html output) placed into the figure folder.
+
+Below is the Professor's description of the project.
+
+Regards,
+Andrew
+
+
 ## Introduction
 
 It is now possible to collect a large amount of data about personal
