@@ -1,9 +1,5 @@
-
----
-title: "Reproducible Research Peer Assessment Project #1"
-output: html_document
-   
----
+Reproducible Research Peer Assessment Project 1
+=========
 
 by A. Brignole
 (August 2015),
@@ -33,6 +29,10 @@ Processing of the data required loading `dplyr` and `lubridate` R packages, whic
 ```r
      library(lubridate)     
      suppressPackageStartupMessages(library(dplyr))
+```
+
+```
+## Warning: package 'dplyr' was built under R version 3.1.3
 ```
 
 
@@ -72,7 +72,7 @@ To answer this part, the dplyr function `group_by` grouped the data by days.  Th
   hist(b1$steps, main = "Histogram of Steps Per Day", xlab = "Steps per Day")
 ```
 
-![plot of chunk unnamed-chunk-4](figure/unnamed-chunk-4-1.png) 
+![plot of chunk 2-StepsByDay](figure/2-StepsByDay-1.png) 
 
 ```r
   b3<-summary(b1$steps)
@@ -108,7 +108,7 @@ For this question, the function `group_by` grouped the dataset according to uniq
     plot(c1$interval,c1$average, type = "l", main = "Average Daily Activity Pattern", xlab = "Time", ylab = "Average Steps")
 ```
 
-![plot of chunk unnamed-chunk-5](figure/unnamed-chunk-5-1.png) 
+![plot of chunk 3.1-StepInTime](figure/3.1-StepInTime-1.png) 
 
 *2. Which 5-minute interval, on average across all the days in the dataset, contains the maximum number of steps?*
 
@@ -174,7 +174,7 @@ The `group_by` function again grouped the dataset by days. The `sum` function ca
   hist(d3$steps, main = "Total Number of Steps Including Imputed Values", xlab = "Total Number of Steps")
 ```
 
-![plot of chunk unnamed-chunk-10](figure/unnamed-chunk-10-1.png) 
+![plot of chunk 4.4-HisStepsSum](figure/4.4-HisStepsSum-1.png) 
 
 ```r
   d4<-summary(d3$steps)
@@ -234,6 +234,6 @@ Prior to plotting, two datasets (e1 and e2) represented data from the weekend an
   plot(e2b$interval,e2b$steps, type = "l", main = "The Average Number of Steps on Weekdays", xlab = "Interval", ylab = "Mean Steps")
 ```
 
-![plot of chunk unnamed-chunk-13](figure/unnamed-chunk-13-1.png) 
+![plot of chunk 5.2-PanPlot](figure/5.2-PanPlot-1.png) 
 
 This concludes the Week 2 assignment.
